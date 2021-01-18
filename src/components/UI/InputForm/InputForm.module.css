@@ -1,0 +1,37 @@
+input {
+	outline: none;
+	border: none;
+	overflow: visible;
+}
+
+.containerInput {
+	width: 100%;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.input {
+	font-size: 18px;
+	border-radius: 20px;
+	color: #4b2354;
+	line-height: 1.2;
+	display: block;
+	width: 100%;
+	height: 50px;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.required {
+	border: 1px solid red ;
+}
+
+.spanError {
+	font-size: 16px;
+	display: block;
+	margin-bottom: 5px;
+	text-align: center;
+	height: 19px;
+	font-style: italic;
+	color: red;
+}
