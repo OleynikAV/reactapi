@@ -299,7 +299,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 
 .pagination span.activePage {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 	color: black;
 }
 

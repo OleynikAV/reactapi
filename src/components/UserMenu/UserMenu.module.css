@@ -3,7 +3,7 @@
 	height: 40px;
 	border-radius: 10em;
 }
-	
+
 .btnDropDown {
 	width: 40px;
 	height: 40px;
@@ -14,20 +14,48 @@
 	outline: 0;
 	margin-left: 10px;
 }
-	
+
 .btnDropDown:hover {
 	transform: scale(1.1);
 	cursor: pointer;
 }
-	
+.userMenu{
+	display: flex;
+}
+.userMenu li{
+	list-style: none;
+	margin: 0 10px;
+	display: flex;
+	align-items: center;
+}
+.userMenu li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.leftMenu{
+	display: flex;
+	align-items: center;
+
+}
+.leftMenu li{
+	color: black;
+	font-weight: bold;
+}
+.userMenuOpasity{
+	opacity: 0.6;
+}
+
 .userMenuItem {
 	position: absolute;
+	right: 30px;
+	top: 40px;
 }
-	
+
 .userMenuItem a {
 	padding: 0;
 }
-	
+
 .disabled {
 	display: none
 }

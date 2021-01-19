@@ -21,7 +21,7 @@ const MainPage = ({ editedStateCancel }) => {
         </div>
         <div className="categories">
           <div className="categoriesHeader">
-            Категории <span className='resultCategories'>4</span>
+            Категории <span className='resultCategories'>(4)</span>
           </div>
 
           <div className="inputWrap">
